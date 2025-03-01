@@ -29,17 +29,40 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Sections */
-section {
-    padding: 20px;
-    background: white;
-    margin: 20px auto;
-    width: 80%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+/* Hero Section */
+#home {
+    background: url('assets/images/banner.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
 }
 
-/* Form */
+.cta-button {
+    display: inline-block;
+    background: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+/* Contact Form */
 form input, form textarea {
     width: 80%;
     padding: 10px;
@@ -70,4 +93,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
