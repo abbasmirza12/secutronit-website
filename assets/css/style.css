@@ -22,6 +22,9 @@ header {
   background-color: #f8f8f8;
   border-bottom: 1px solid #eee;
   z-index: 1000;
+  display: flex;
+  justify-content: center; /* Center the nav */
+  padding: 10px 0; /* Add padding to top */
 }
 
 .logo {
@@ -33,7 +36,7 @@ header {
 
 nav ul {
   display: flex;
-  justify-content: center; /* Center the nav items */
+  justify-content: center;
   list-style: none;
   gap: 20px;
 }
@@ -41,7 +44,7 @@ nav ul {
 nav a {
   text-decoration: none;
   color: #333;
-  padding: 20px 0;
+  padding: 15px 20px;
 }
 
 nav a.active,
