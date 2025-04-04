@@ -13,13 +13,6 @@ body {
   padding-top: 70px;
 }
 
-/* Container */
-.container {
-  max-width: 1140px;
-  margin: auto;
-  padding: 0 20px;
-}
-
 /* Header */
 header {
   position: fixed;
@@ -40,6 +33,7 @@ header {
 
 nav ul {
   display: flex;
+  justify-content: center; /* Center the nav items */
   list-style: none;
   gap: 20px;
 }
