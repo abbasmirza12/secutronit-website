@@ -1,3 +1,18 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+  padding-top: 70px;
+}
+
 /* Header */
 header {
   position: fixed;
@@ -8,7 +23,7 @@ header {
   border-bottom: 1px solid #eee;
   z-index: 1000;
   display: flex;
-  justify-content: space-between; /* Logo on the left */
+  justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
 }
@@ -79,4 +94,56 @@ nav .dropdown:hover .dropdown-content {
 
 nav .dropdown:hover .dropbtn {
   color: #0077cc;
+}
+
+/* Hero Section */
+.hero {
+  padding: 100px 20px;
+  text-align: center;
+  background: #eef7fc;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #0077cc;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  background: #f8f8f8;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
 }
