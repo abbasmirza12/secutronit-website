@@ -1,24 +1,9 @@
-/* Base Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #ffffff;
-  color: #333;
-  line-height: 1.6;
-  padding-top: 70px;
-}
-
 /* Header */
 header {
   position: fixed;
-  width: 100%;
   top: 0;
   left: 0;
+  width: 100%;
   background-color: #f8f8f8;
   border-bottom: 1px solid #eee;
   z-index: 1000;
@@ -28,10 +13,21 @@ header {
   padding: 10px 20px;
 }
 
-nav {
-  width: 100%;
+.container {
   display: flex;
-  justify-content: center; /* Centers the nav items */
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  flex: 0 1 auto;
+}
+
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Center nav links */
 }
 
 nav ul {
@@ -130,20 +126,4 @@ footer {
   padding: 20px;
   border-top: 1px solid #eee;
   margin-top: 40px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hero h1 {
-    font-size: 2rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
 }
