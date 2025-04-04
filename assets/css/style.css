@@ -42,7 +42,8 @@ header {
 }
 
 .logo img {
-  height: 50px;
+  max-height: 70px;
+  width: auto;
 }
 
 /* Nav Centered */
