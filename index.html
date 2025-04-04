@@ -3,37 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Secutron IT - Cybersecurity & IT Solutions</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>SecutronIT - IT Consultancy</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <!-- Navigation Bar -->
     <header>
-         <div class="logo-container">
-        <img src="assets/images/SIT3.JPG" alt="Secutron IT Logo" class="logo">
-        <h1 class="company-name">Secutron IT</h1>
-    </div>
+        <div class="logo">SecutronIT</div>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#industries">Industries</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section id="hero">
-        <img src="assets/images/banner.jpg" alt="Cybersecurity Solutions">
-        <h2>Your Trusted Cybersecurity & IT Partner</h2>
-        <p>Securing businesses with cutting-edge solutions in Network Security, Cloud Security, and Microsoft Identity & Access Management.</p>
-        <a href="contact.html" class="cta-button">Get a Free Consultation</a>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transforming IT Security for Tomorrow's Enterprises</h1>
+            <p>Innovative solutions in Network Security, Cloud Security, and Microsoft Solutions.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
     </section>
 
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Expertise</h2>
+        <div class="services-grid">
+            <div class="service">
+                <h3>Network Security</h3>
+                <p>Protecting your network with advanced solutions from Palo Alto, Cisco, and Fortinet.</p>
+            </div>
+            <div class="service">
+                <h3>Cloud Security</h3>
+                <p>Securing cloud environments with Azure and Oracle Cloud solutions.</p>
+            </div>
+            <div class="service">
+                <h3>Microsoft Solutions</h3>
+                <p>Streamlining IT operations with Entra ID, Purview, and Identity Governance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section id="industries">
+        <h2>Industries We Serve</h2>
+        <p>Tailored IT solutions for various sectors including healthcare, finance, and education.</p>
+    </section>
+
+    <!-- Client Logos -->
+    <section id="clients">
+        <h2>Our Clients</h2>
+        <div class="client-logos">
+            <img src="client1.png" alt="Client 1">
+            <img src="client2.png" alt="Client 2">
+            <img src="client3.png" alt="Client 3">
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About SecutronIT</h2>
+        <p>We provide expert IT consultancy with a focus on security, cloud, and Microsoft solutions to help enterprises grow and protect their digital infrastructure.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>© 2025 Secutron IT. All Rights Reserved.</p>
+        <p>© 2025 SecutronIT. All Rights Reserved.</p>
     </footer>
 
 </body>
